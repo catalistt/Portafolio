@@ -1,0 +1,204 @@
+<html lang="es">
+    <head>
+        <!--Caracteres latinos-->
+        <meta charset="UTF-8">
+        <!--Ajuste responsivo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+        <!--Vínculo con css-->
+        <link rel="stylesheet" href="assets/css/style.css">    
+        <!--Tipografía-->
+        <!--Oswarld y Open Sans-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <!--FontAwesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--Título en la pestaña-->
+        <title>Catalina Aliste | Portafolio</title>
+    </head>
+    <body>
+        <!--Se obtiene el navbar de bootstrap y se personaliza-->
+        <nav class="navbar navbar-expand-lg navcolor fixed-top py-0">
+          <div class="container">
+              <a class="navbar-brand font-weight-bold text-light m-0 p-0 ml-4 tamaño-nav" href="#">C</a>
+              <button class="navbar-toggler border mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#sobre_mi">Sobre mí<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#experiencias">Experiencias</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#trabajos">Trabajos</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!--Portada de la página-->
+        <div class="container-fluid text-light portada pb-1">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal" id="boton-hola">
+            HOLA :)!
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade btn-secondary" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">¿Quién soy?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Aquí va quién soy.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-secondary">Copy text</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            <p class="font-weight-lighter text-center mx-5 mb-0" id="inicio">YO SOY</p>
+            <hr class="my-0 py-0" id="linea1">
+            <p class="font-weight-bold text-center" id="nombre">CATALINA</p>      
+          </div>
+        
+        <!--Seccion de texto sobre mi. Solo aparece en aparatos grandes-->
+        <div class="container bg-white d-none d-md-block sobremi" id="sobre_mi">
+          <p class="pl-5 text-center m-5 sobremi-titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante <br> nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
+          <!--División del row que viene en 2 columnas grandes-->
+          <div class="row">
+            <div class="col-6 pl-5">
+              <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam. </p>
+            </div>
+            <div class="col-6">
+              <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+            </div>
+          </div>
+        </div>
+
+        <!--Seccion de experiencias.-->
+        <div class="container-fluid bg-white mb-4" id="experiencias">
+          <h2 class="text-center pt-4 pb-3">MI EXPERIENCIA</h2>
+          <hr class="my-0 py-0" id="linea4">
+        <!--División del row que viene en 2 columnas grandes-->
+          <div class="row">
+            <div class="col text-center pl-auto p-2">
+              <img src="assets/img/logo-ibm.png" class="img-fluid pt-2 img-exp" data-toggle="tooltip" data-placement="bottom" title="Soluciones tecnológicas" alt="IBM">
+              <p class="pt-1 mb-0">Consultora SAP - IBM</p>
+              <p class="font-weight-lighter m-0 año">2019 - 2020</p>
+            </div>
+            <div class="col pr-auto p-2 text-center">
+              <img src="assets/img/los-amigos.jpg" class="img-fluid pt-2 img-exp" data-toggle="tooltip" data-placement="bottom" title="Distribución de líquidos y snacks" alt="Los Amigos SPA">
+              <p class="pt-1 mb-0">CIO - Los Amigos distribución</p>
+              <p class="font-weight-lighter m-0 año">2020</p>
+            </div>
+          </div>
+        </div>
+        
+        <!--PRIMERA SECCIÓN DE CARDS-->
+        <!--Se pone todo el contenido dentro de un container fluid, para que ocupe el 100%-->
+        <div class="container-fluid cont-trabajos pb-2" id="trabajos">
+          <h2 class="text-center pt-4 pb-1 text-white">MIS ÚLTIMOS TRABAJOS</h2>
+          <hr class="my-0 py-0 pb-3" id="linea2">
+          <div class="card-deck mb-0">
+            <div class="card m-4">
+              <img src="assets/img/meet_coffee.png" class="card-img-top border-bottom" alt="Meet&Coffee">
+              <div class="card-body">
+                <h5 class="card-title">Meet&Coffee</h5>
+                <p class="card-text font-weight-light">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="assets/img/iguana_page.png" class="card-img-top border-bottom" alt="Iguana page">
+              <div class="card-body">
+                <h5 class="card-title">Iguana Page</h5>
+                <p class="card-text font-weight-light">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="assets/img/suricata.png" class="card-img-top border-bottom" alt="Suricata">
+              <div class="card-body">
+                <h5 class="card-title">Suricata</h5>
+                <p class="card-text font-weight-light">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+              </div>
+            </div>
+          </div>
+
+          <!--SEGUNDA SECCION DE CARDS-->
+          <div class="card-deck pt-0 mt-0">
+            <div class="card m-4">
+              <img src="assets/img/cuppon.png" class="card-img-top border-bottom" alt="Cuppon">
+              <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+                <p class="card-text font-weight-light">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="assets/img/ricomida.png" class="card-img-top border-bottom" alt="Ricomida">
+              <div class="card-body">
+                <h5 class="card-title">Ricomida</h5>
+                <p class="card-text font-weight-light">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="assets/img/dmark.png" class="card-img-top border-bottom" alt="DMark">
+              <div class="card-body">
+                <h5 class="card-title">DMark</h5>
+                <p class="card-text font-weight-light">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <!--Sección de contacto + typeform-->
+         <div class="container-fluid" id="contacto">
+          <h2 class="text-center pt-4 pb-1 text-black">CONTACTO</h2>
+          <hr class="my-0 py-0 pb-3" id="linea3">  
+          <div class="typeform-widget pt-1 mt-1" data-url="https://caliste.typeform.com/to/cvLHEm" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=cvLHEm&utm_source=typeform.com-01E7H4W3KVVSGGKNWTZP3T38M7-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a></div>
+         </div>
+
+         <!--Seccion footer-->
+         <footer>
+           <div class="container-fluid cont-trabajos pt-2">
+            <div class="row">
+              <div class="col">
+              <h3 class="font-weight-bold text-center text-white p-1">CATALINA</h3>
+              </div>
+              <div class="col text-center claro pt-1 pb-3">
+                <a href="https://github.com/catalistt"><i class="fab fa-github-square fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/catalina-aliste-gonz%C3%A1lez-281271138/"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i></a>
+                <a href="https://www.facebook.com/catanotfound"><i class="fab fa-facebook fa-3x"></i></a>
+              </div>              
+
+            </div>
+
+           </div>
+         </footer>
+
+
+        <!--Se agregan las animaciones después de que todo el contenido de la página funciona-->
+        <!--jQuery 3.3.1 (sin slim)-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <!--Popper JS 1.14.3-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!--Bootstrap JS 4.1.3-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!-- Mi script -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

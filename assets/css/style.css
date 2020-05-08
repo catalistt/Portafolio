@@ -1,0 +1,153 @@
+/************************************************************/
+/*Aplicación de tipografía gral. y padding para el fixed-top*/
+/************************************************************/
+
+body {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 60px;
+     }
+
+/************************************************************/
+/**** Navbar: configuración de color y tamaño letra "C" *****/
+/************************************************************/    
+
+.navColor{
+    background-color: #6A1415;
+}
+
+.tamaño-nav{
+    font-size: 2.5rem;
+}
+
+/************************************************************/
+/* Portada: inclusión de imagen de fondo y tamaño de textos */
+/************************************************************/
+
+.portada{
+    background-image: url('../img/Portada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 100%;
+}
+
+
+/*Correspondiente al "Yo soy"*/
+#inicio{
+    font-size: 3rem;
+}
+
+/*Correspondiente al "Catalina"*/
+#nombre{
+    font-size: 4rem;
+}
+
+/*Línea entre palabras*/
+#linea1{
+    width: 160pt;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#boton-hola{
+    margin: 0 10px 20px 10px;
+    left: 45%;
+    position: relative
+}
+
+/************************************************************/
+/*Seccion sobre mi - solo disponible en dispositivos grandes*/
+/************************************************************/
+
+/*Parte general*/
+.sobremi{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    padding-bottom: 5%;
+    line-height: 2;  /*Para agregar espacio entre saltos de línea*/
+}
+
+/*Parte correspondiente al título de la sección*/
+.sobremi-titulo{
+    font-size: 1.3rem;
+}
+
+/************************************************************/
+/*                Sección sobre experiencias                */
+/************************************************************/
+h2{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.img-exp {
+    width: 7rem;
+    height: 6rem;
+    filter: saturate(10%);
+}
+
+.año{
+    font-family: 'Open Sans' , sans-serif;
+}
+
+#linea4{
+    width: 100pt;
+    border-style: solid;
+    border-color: #000000;
+}
+
+/************************************************************/
+/*Seccion sobre trabajos hechos*/
+/************************************************************/
+.cont-trabajos{
+    background-color: #6A1415;
+}
+
+#linea2{
+    width: 100pt;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+/************************************************************/
+/*             Seccion sobre trabajos hechos                */
+/************************************************************/
+
+#linea3{
+    width: 100pt;
+    border-style: solid;
+    border-color: #000000;
+}
+
+/************************************************************/
+/*                 Seccion final - footer                   */
+/************************************************************/
+
+.claro a{
+    color: #ffffff;
+}
+
+/************************************************************/
+/* Seccion para hacer el sitio responsivo                   */
+/************************************************************/
+
+/*Para que se divida el contenido de una row, por columnas*/
+@media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+    .col {
+        max-width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    #inicio{
+    font-size: 5rem;
+    }
+    #nombre{
+    font-size: 6rem;
+    }
+ }
+
